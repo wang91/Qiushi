@@ -12,6 +12,7 @@
 #import "CommentModel.h"
 #import "BaseModel.h"
 #import "BaseCell.h"
+
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate,MJRefreshBaseViewDelegate,BaseCellDelegate>
 {
     NSMutableArray * _dataArr;
