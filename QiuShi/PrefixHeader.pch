@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  QiuShi
+//
+//  Created by qianfeng on 15/7/14.
+//  Copyright (c) 2015年 qianfeng. All rights reserved.
+//
+#import "LFTool.h"
+#import "LFView.h"
+#import "MJRefresh.h"
+
+
+#define LFFont(size) [UIFont systemFontOfSize:size]
+
+//确定屏幕宽高
+#define LFScreenWidth [UIScreen mainScreen].bounds.size.width
+#define LFScreenHeight [UIScreen mainScreen].bounds.size.height
